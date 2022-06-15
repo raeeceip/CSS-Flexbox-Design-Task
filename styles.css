@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+.gridelement h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+.gridcontainer::after{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    margin: auto;
+ 
+}
+.gridelement{
+    float:left;
+    width: 33.33%;
+    padding: 40px;
+    height: 500px;
+    color:white;
+    
+  
+}
+.gridelement button{
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px 30px;
+    color:hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+}
+.gridelement button:hover{
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    padding:10px 30px;
+    color: transparent;
+}
